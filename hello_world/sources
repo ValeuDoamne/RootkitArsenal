@@ -1,0 +1,15 @@
+TARGETNAME=myfault
+TARGETTYPE=DRIVER
+
+
+
+TARGETLIBS=$(TARGETLIBS) # $(DDK_LIB_PATH)\ntstrsafe.lib \
+                         # $(DDK_LIB_PATH)\wdmsec.lib 
+
+C_DEFINES=$(C_DEFINES) -D_WIN2K_COMPAT_SLIST_USAGE
+
+INCLUDES=$(INCLUDES);..
+
+
+SOURCES= test.c # driver.c 
+
