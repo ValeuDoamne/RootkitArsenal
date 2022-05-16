@@ -11,7 +11,7 @@ This project is not about hurting other people (or other computers lol).
 
 The development environment is Visual Studion 2015 and Windows DDK on Windows 7 x64.
 
-The victim for the experiments is an Windows 7 32 bit VM, *why?* you may ask, because Microsoft added Kernel-Mode Code Signing using certificates for the 64 bits versions of Windows, so you are not going to add an driver anytime soon on a 64 bit system without a Microsoft approved certificate, jk..unless?
+The victim for the experiments is an Windows 7 32 bit VM, *why?* you may ask, because Microsoft added Kernel-Mode Code Signing using certificates for the 64 bits versions of Windows, so you are not going to add a driver anytime soon on a 64 bit system without a Microsoft approved certificate, jk..unless?
 
 ## Where to learn
 
